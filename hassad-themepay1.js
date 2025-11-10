@@ -122,7 +122,7 @@
             <!-- Direct Payment Modal -->
     <div id="directPaymentModal" class="modal">
         <div class="modal-content relative">
-            <span class="close-btn" onclick="closeModal('directPaymentModal')">&times;</span>
+            <span class="close-btn closepay">&times;</span>
             <div class="price">
                 المبلغ : <span class="pri">  </span>
             </div>
@@ -312,3 +312,7 @@ ${senderPhone ? `رقم المرسل: ${senderPhone}` : ''}
             });
         }
     });
+
+ document.querySelector('.closepay').addEventListener('click', ()=> {
+    closeModal('directPaymentModal');
+ });
