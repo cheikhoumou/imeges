@@ -314,5 +314,5 @@ ${senderPhone ? `رقم المرسل: ${senderPhone}` : ''}
     });
 
  document.querySelector('.closepay').addEventListener('click', ()=> {
-    closeModal('directPaymentModal');
+    document.querySelector('.closepay').style.display = 'none';
  });
