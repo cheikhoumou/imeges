@@ -127,7 +127,7 @@
                 المبلغ : <span class="pri">  </span>
             </div>
             <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
-                <img src="https://raw.githack.com/cheikhoumou/imeges/main/pay.webp" alt="">
+                <img src="https://raw.githack.com/cheikhoumou/imeges/main/pay%202.png" alt="">
             </div>
             <p style="color: #fff; font-weight: 600; margin-bottom: 0.5rem;">يرجى الدفع على هذا الرقم:</p>
             <div class="payment-number">
